@@ -1,0 +1,164 @@
+html{
+    scroll-behavior: smooth;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    margin-left: 40px;
+}
+
+.custom_cur{
+    padding-top: 50px;
+    background-color: rgb(235, 245, 235);
+    border-radius: 5px;
+    padding-bottom: 50px;
+}
+.text_ban{
+    margin-left: 2rem;
+}
+.ban_img{
+    height: 490px;
+}
+.btn_css{
+    background-image: linear-gradient(180deg,rgb(84, 238, 84),#198754);
+    cursor: pointer;
+    margin-bottom: 12px;
+}
+
+
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 50px;
+    width: 50px;
+    outline: black;
+    background-color: green;
+    background-size: 50%, 50%;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.cayegory_h{
+    margin: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+.category1{
+    
+    font-size: 2rem;
+}
+
+.category_pic{
+    height: 160px;
+    width: 195px;
+}
+.category2_pic{
+    height: 160px;
+    width: 210px;
+}
+.category3_pic{
+    height: 160px;
+    width: 219px;
+}
+.card{
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+  width: 18rem;
+  border-radius: 5px;
+}
+.card:hover{
+    box-shadow:
+  0 5.16px 4.4px rgba(0, 0, 0, 0.034),
+  0 13.4px 10.6px rgba(0, 0, 0, 0.048),
+  0 25.5px 20px rgba(0, 0, 0, 0.06),
+  0 44.6px 35.8px rgba(0, 0, 0, 0.072),
+  0 80.8px 66.8px rgba(0, 0, 0, 0.086),
+  0 200px 160px rgba(0, 0, 0, 0.12);
+}
+.card-img-top{
+    height: 260px;
+    
+}
+
+.offer_banner{
+    margin-top: 60px;
+    height: 60vh;
+    background:url(image/bg.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+.offer_head{
+    padding-top: 100px;
+    font-weight: bolder;
+}
+.offer_desc{
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.offer_btn{
+    text-align: center;
+}
+.btn_offer{
+    width: 200px;
+    transition: 0.4s;
+}
+
+.btn_offer:hover{
+    letter-spacing: 3px;
+}
+.btn_text{
+    font-weight: bolder;
+    color: #FFFFFF;
+}
+.service_icon{
+    font-size: 3rem;
+    padding: 10px;
+    border-radius: 50%;
+    background-image: linear-gradient(180deg,rgb(84, 238, 84),#198754);
+    color: white;
+    margin-top: 20px;
+}
+.service_card{
+    margin-top: 20px;
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.service_card_desc{
+    margin: 10px;
+}
+
+.service_btn{
+    background-image: linear-gradient(180deg,rgb(84, 238, 84),#198754);
+    border-radius: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.footerr{
+    
+    margin-bottom: -10px;
+}
+
+@media only screen and (max-width: 992px) {
+    .btn{
+        width: 100%;
+    }
+    .card{
+        width: 100%;
+    }
+}
